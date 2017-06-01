@@ -53,10 +53,10 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     ---
     (詢問類)
     * Input: "who are you?" or "what can you do?"
-	* Reply: 
+	    * Reply: 
 		I'm TattosBot,a Chatbot,maybe can provide you some service
-		
-		If you need some service,please input "I need some service"
+        
+        	If you need some service,please input "I need some service"
     
     (bot回覆完訊息後將會`go_back` 回到 `user` 狀態)
         
@@ -71,7 +71,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (bot會詢問使用者要選擇哪一項服務，我們從第一種服務開始依序舉例)
     (服務類Food，bot會給使用者三個選項)
     * Input: "food"
-	* Reply: 
+	    * Reply: 
 		What do you need?
 		
         	(please input number)
