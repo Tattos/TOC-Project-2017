@@ -123,7 +123,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		
         	(food,book,video)
     * Input: "food"
-	* Reply: 
+	    * Reply: 
 		What do you need?
 		
         	(please input number)
@@ -193,7 +193,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		
         	(food,book,video)
     * Input: "book"
-	* Reply: 
+	    * Reply: 
 		You may like this:
 		
         	[博客來]
@@ -222,7 +222,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     ---
     (打招呼類)
     * Input: "hi" or "hello" or "good morning" or   "good afternoon" or "good evening" or "good night"
-	* Reply: 
+	    * Reply: 
 		Hi,what's your name?
      
     (接下來請輸入你的名字)
