@@ -164,7 +164,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (bot回覆完訊息後將會`go_back` 回到 `user` 狀態)
     
     ---
-
+    (打招呼類)
 	* Input: "hi" or "hello" or "good morning" or   "good afternoon" or "good evening" or "good night"
 		* Reply: 
 		Hi,what's your name?
