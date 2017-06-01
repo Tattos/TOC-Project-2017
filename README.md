@@ -146,6 +146,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     or
     
     * Input: "2" or "(2)" or "Pasta"
+    
         * Reply: 
 		OK,we will serve you shortly.
         
