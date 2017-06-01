@@ -54,7 +54,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (詢問類)
     * Input: "who are you?" or "what can you do?"
 	    * Reply: 
-		I'm TattosBot,a Chatbot,maybe can provide you some service
+		I'm TattosBot,a Chatbot,maybe can provide you some service.
         
         	If you need some service,please input "I need some service"
     
