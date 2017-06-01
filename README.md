@@ -69,6 +69,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
         	(food,book,video)
     
     (bot會詢問使用者要選擇哪一項服務，我們從第一種服務開始依序舉例)
+    
     (服務類Food，bot會給使用者三個選項)
     * Input: "food"
 	    * Reply: 
@@ -97,6 +98,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
         	You reserve a table for five at 8:00 pm
         
     (bot 會記錄使用者的輸入，並請使用者再次確認)
+    
     (假設使用者確定無誤，則輸入如下)
     * Input: "y" or "yes"
         * Reply: 
@@ -137,6 +139,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
         	(2)Pasta
     
     (此時bot會詢問你要點Fried rice或Pasta)
+    
     (輸入如下)
     * Input: "1" or "(1)" or "Fried rice"
     or
@@ -145,6 +148,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		OK,we will serve you shortly.
         
     (不論選擇Fried rice或Pasta，bot都會回覆此訊息)
+    
     (bot回覆完訊息後將會`go_back` 回到 `user` 狀態)
     
     ---
@@ -204,6 +208,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		Hi~Jimmy,nice to meet you!
         
     (bot將使用者input的名字記錄下來並回覆)
+    
     (bot回覆完訊息後將會`go_back` 回到 `user` 狀態)
 
 
