@@ -117,8 +117,13 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     
     ---
     (服務類food，選擇第二項)
-	* Input: "food"
-		* Reply: 
+    * Input: "I need some service"
+        * Reply: 
+		What type of service you need? 
+		
+        	(food,book,video)
+    * Input: "food"
+	* Reply: 
 		What do you need?
 		
         	(please input number)
@@ -156,6 +161,11 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     
     ---
     (服務類food，選擇第三項)
+    * Input: "I need some service"
+        * Reply: 
+		What type of service you need? 
+		
+        	(food,book,video)
     * Input: "food"
 		* Reply: 
 		What do you need?
@@ -177,8 +187,13 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     
     ---
     (服務類book，bot會直接推薦「博客來」的連結給用者)
-	* Input: "book"
-	    * Reply: 
+    * Input: "I need some service"
+        * Reply: 
+		What type of service you need? 
+		
+        	(food,book,video)
+    * Input: "book"
+	* Reply: 
 		You may like this:
 		
         	[博客來]
@@ -189,6 +204,11 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     
     ---
     (服務類video，bot會直接推薦「Youtube」的連結給用者)
+    * Input: "I need some service"
+        * Reply: 
+		What type of service you need? 
+		
+        	(food,book,video)
     * Input: "video"
         * Reply: 
 		You may like this:
@@ -201,8 +221,8 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     
     ---
     (打招呼類)
-	* Input: "hi" or "hello" or "good morning" or   "good afternoon" or "good evening" or "good night"
-		* Reply: 
+    * Input: "hi" or "hello" or "good morning" or   "good afternoon" or "good evening" or "good night"
+	* Reply: 
 		Hi,what's your name?
      
     (接下來請輸入你的名字)
