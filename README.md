@@ -186,7 +186,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (bot回覆完訊息後將會`go_back` 回到 `user` 狀態)
     
     ---
-    (服務類book，bot會直接推薦「博客來」的連結給用者)
+    (服務類book，bot會直接推薦「博客來」的連結給使用者)
     * Input: "I need some service"
         * Reply: 
 		What type of service you need? 
@@ -203,7 +203,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (bot回覆完訊息後將會`go_back` 回到 `user` 狀態)
     
     ---
-    (服務類video，bot會直接推薦「Youtube」的連結給用者)
+    (服務類video，bot會直接推薦「Youtube」的連結給使用者)
     * Input: "I need some service"
         * Reply: 
 		What type of service you need? 
