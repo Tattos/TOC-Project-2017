@@ -86,7 +86,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (假設使用者要選擇第一項服務，則輸入如下)
     * Input: "1" or "(1)" or "reserve a table"
         * Reply: 
-		Please input the total number of person and reservation time
+		Please input the total number of person and reservation time.
 		
         	(example: for five at 7:20 pm.)
     
@@ -109,7 +109,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
     (假設使用者認為訂位有誤，則輸入如下)
     * Input: "n" or "no"
         * Reply: 
-		Please input the total number of person and reservation time
+		Please input the total number of person and reservation time.
 		
        		(example: for five at 7:20 pm.)
     
